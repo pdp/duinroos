@@ -14,9 +14,7 @@ import {CarouselModule} from "primeng/carousel";
   ],
     imports: [
         BrowserModule,
-        AppRoutingModule,
-        TabMenuModule,
-        CarouselModule
+        AppRoutingModule
     ],
   providers: [],
   bootstrap: [AppComponent]

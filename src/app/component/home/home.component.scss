@@ -1,7 +1,7 @@
 :host ::ng-deep {
 
   li.p-tabmenuitem {
-    background-color: hotpink;
+    background-color: deeppink;
     color: white;
     padding: 1rem;
   }
@@ -17,5 +17,9 @@
     border: deeppink;
   }
 
+}
+
+#background {
+  background-image: url("../../../assets/images/uitzicht_zee.jpg");
 }
 

@@ -1,0 +1,21 @@
+:host ::ng-deep {
+
+  li.p-tabmenuitem {
+    background-color: hotpink;
+    color: white;
+    padding: 1rem;
+  }
+
+  .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link {
+    background-color: hotpink;
+    color: white;
+    border: none;
+  }
+
+  .p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:not(.p-disabled):focus {
+    background-color: deeppink;
+    border: deeppink;
+  }
+
+}
+
